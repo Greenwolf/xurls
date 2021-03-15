@@ -28,7 +28,7 @@ repeated calls should be avoided.
 #### cmd/xurls
 
 To install the tool globally:
-
+	GO111MODULE=on go get github.com/Greenwolf/xurls/v2@v2.2.1
 	cd $(mktemp -d); go mod init tmp; GO111MODULE=on go get mvdan.cc/xurls/v2/cmd/xurls
 
 ```shell
