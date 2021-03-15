@@ -18,7 +18,7 @@ import (
 	"strings"
 	"time"
 
-	"mvdan.cc/xurls/v2"
+	"github.com/Greenwolf/xurls/v2"
 )
 
 var (
