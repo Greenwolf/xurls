@@ -93,7 +93,7 @@ func relaxedExp() string {
 	site := domain + `(?i)(` + punycode + `|` + knownTLDs + `)(?-i)`
 	hostName := `(` + site + `|` + ipAddr + `)`
 	webURL := hostName + port + `(/|/` + pathCont + `)?`
-	return strictExp() + `|` + webURL
+	return webURL
 }
 
 // Strict produces a regexp that matches any URL with a scheme in either the
